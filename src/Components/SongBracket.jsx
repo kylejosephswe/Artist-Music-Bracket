@@ -35,7 +35,7 @@ function SongBracket({ artistName, artistSongData }) {
         <div className="inner-flex">
           <div className="top-song">
             {!songsArray[topCount]?.src ? (
-              <h1>Your favorite {artistName} song!</h1>
+              <h1 className="fav-song">Your favorite {artistName} song!</h1>
             ) : (
               <iframe
                 className="iframe"
