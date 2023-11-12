@@ -21,8 +21,6 @@ function Navbar() {
               <svg
                 className="back-button"
                 xmlns="http://www.w3.org/2000/svg"
-                width="42"
-                height="42"
                 fill="currentColor"
                 viewBox="0 0 16 16"
               >

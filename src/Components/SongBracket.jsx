@@ -38,10 +38,9 @@ function SongBracket({ artistName, artistSongData }) {
               <h1>Your favorite {artistName} song!</h1>
             ) : (
               <iframe
+                className="iframe"
                 style={{ borderRadius: "12px" }}
                 src={songsArray[topCount].src}
-                width="100%"
-                height="352"
                 frameBorder="0"
                 allowFullScreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
@@ -65,10 +64,9 @@ function SongBracket({ artistName, artistSongData }) {
               <h1>Your favorite {artistName} song!</h1>
             ) : (
               <iframe
+                className="iframe"
                 style={{ borderRadius: "12px" }}
                 src={songsArray[bottomCount].src}
-                width="100%"
-                height="352"
                 frameBorder="0"
                 allowFullScreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
