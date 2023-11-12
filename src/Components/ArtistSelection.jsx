@@ -27,6 +27,12 @@ function ArtistSelection() {
           artistImage="https://assets.teenvogue.com/photos/612f8bf4e8c260b3d41cc82c/1:1/w_2000,h_2000,c_limit/Stray%20Kids%20(1).jpg"
         />
       </Link>
+      <Link to="/beyonce" className="links">
+        <ArtistCard
+          artistName="Beyonce"
+          artistImage="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2022-03/220323-beyonce-ew-510p-86a49a.jpg"
+        />
+      </Link>
     </div>
   );
 }
