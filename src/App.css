@@ -1,0 +1,199 @@
+/* GLOBALS */
+
+@font-face {
+  font-family: "CustomQuicksand";
+  src: url("./Fonts/CustomQuicksand.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: "CustomQuicksand", Arial, Helvetica, sans-serif;
+  background-color: #1A1A1D;
+  color: white;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+.links:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.links:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.links:active {
+  text-decoration: none;
+  color: black;
+}
+
+/* DESKTOP */
+
+/* NAVBAR */
+
+.navbar {
+  font-size: 1.3em;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 2%;
+  margin-right: 5%;
+}
+
+.choose-artist {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.artist-selection-flexbox {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  overflow-y: scroll;
+  margin-left: 3%;
+  margin-right: 3%;
+  overflow: visible;
+  margin-bottom: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  border-radius: 4%;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+  overflow: hidden;
+  /*background-color: rgb(255, 255, 255);*/
+}
+
+.outer-img {
+  width: 50%;
+  height: 50%;
+}
+
+.artist-img {
+  /*
+  height: auto;
+  width: 100%;
+  */
+  height: 300px;
+  width: 300px;
+}
+
+.artist-text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.334;
+  margin-bottom: 3%;
+  width: 90%;
+  height: 10%;
+  color: white;
+}
+
+/* INSTRUCTIONS */
+
+.instructions {
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+
+/* Artist Page */
+
+.artist-page-title {
+  text-align: center;
+}
+
+/* SONG BRACKET PAGE */
+
+.outer-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 80vh;
+}
+
+.inner-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  text-align: center;
+}
+
+.header-box {
+  margin-top: 1%;
+  margin-bottom: 20px;
+}
+
+.bottom-button {
+  margin-top: 10px;
+  font-size: 50px;
+  background-color: #1A1A1D;
+  border: none;
+  cursor: pointer;
+}
+
+.bottom-button:hover {
+  font-size: 55px;
+}
+
+.top-button {
+  margin-top: 10px;
+  font-size: 50px;
+  background-color: #1A1A1D;
+  border-color: #1A1A1D;
+  border: none;
+  cursor: pointer;
+}
+
+.top-button:hover {
+  font-size: 55px;
+}
+
+/* MOBILE */ 
+
+@media only screen and (max-device-width: 480px){
+.navbar {
+  font-size: 1.5em;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
+}
+
+.artist-selection-flexbox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow-y: scroll;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  overflow: visible;
+  margin-bottom: 5%;
+}
+
+}
